@@ -2,9 +2,10 @@
   "name": "interview-challenge",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kmgarvey279.github.io/Helpful-Human-Interview-Challenge",
+  "homepage": "https://kmgarvey279.github.io/Helpful-Human-Challenge",
   "dependencies": {
     "firebase": "^3.9.0",
+    "gh-pages": "^2.1.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.1",
@@ -16,7 +17,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build --git git"
   },
   "eslintConfig": {
     "extends": "react-app"
